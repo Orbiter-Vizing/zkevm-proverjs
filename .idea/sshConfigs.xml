@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig host="1.116.219.131" id="9f4497c3-3ee3-4e1e-a480-efe55af92ff8" keyPath="C:\Users\aabbc\.ssh\id_ed25519" port="6000" nameFormat="DESCRIPTIVE" username="sutai" />
+      <sshConfig host="192.168.1.96" id="f7df57f3-b2d8-4113-a555-c156ccc7148a" keyPath="D:\Golang\orbc\sutai_96.pem" port="22" nameFormat="DESCRIPTIVE" username="sutai" />
+    </configs>
+  </component>
+</project>

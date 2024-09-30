@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="sutai外网156-proverjs">
+    <serverData>
+      <paths name="sutai96-proverjs">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/sutai/zkevmdev/zkevm-proverjs" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/.git" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+      <paths name="sutai外网156-proverjs">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/mnt/newdisk/zkevmdev/zkevm-proverjs" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/.git" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

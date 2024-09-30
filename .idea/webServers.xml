@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="02e3ee9a-66fc-48a4-8fcd-0a93e52d6ce9" name="sutai外网156-proverjs">
+        <fileTransfer accessType="SFTP" host="1.116.219.131" port="6000" sshConfigId="9f4497c3-3ee3-4e1e-a480-efe55af92ff8" sshConfig="sutai@1.116.219.131:6000 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="3384f075-db05-4499-b724-ae20515ff50e" name="sutai96-proverjs">
+        <fileTransfer accessType="SFTP" host="192.168.1.96" port="22" sshConfigId="f7df57f3-b2d8-4113-a555-c156ccc7148a" sshConfig="sutai@192.168.1.96:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
