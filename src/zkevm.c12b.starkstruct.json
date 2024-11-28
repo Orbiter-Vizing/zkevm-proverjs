@@ -3,6 +3,7 @@
     "nBitsExt": 24,
     "nQueries": 64,
     "verificationHashType": "BN128",
+    "merkleTreeArity": 16,
     "steps": [
         {"nBits": 24},
         {"nBits": 20},
