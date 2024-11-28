@@ -41,15 +41,15 @@ BDIR="${npm_config_build:=build/proof}"
 mkdir -p $BDIR
 # NODE="--trace-gc --trace-gc-ignore-scavenger --max-semi-space-size=1024 --max-old-space-size=524288"
 if [ -z ${npm_config_mem} ]; then
-	MEM=1048576
-	type head free tail sed >/dev/null 2>&1 && MEM=`free|head -2|tail -1|sed 's/Mem: *\([0-9]*\).*/\1/'`
-	MEM=$((MEM * 9/10000))
-	[ $MEM -gt 1048576 ] && MEM=1048576
+	MEM=1677722
+	#type head free tail sed >/dev/null 2>&1 && MEM=`free|head -2|tail -1|sed 's/Mem: *\([0-9]*\).*/\1/'`
+	#MEM=$((MEM * 9/10000))
+	#[ $MEM -gt 1048576 ] && MEM=1048576
 else
 	MEM=$((${npm_config_mem} * 1000))
 fi
 echo "Using ${MEM} MB"
-NODE="--max-old-space-size=$MEM"
+NODE="--max-old-space-size=$MEM --max-semi-space-size=$MEM --optimize-for-size --gc-interval=1000"
 PIL_MAIN="${npm_config_pil:=pil/main.pil}"
 PIL_JSON="`basename $PIL_MAIN`.json"
 PIL_DIR="`dirname $PIL_MAIN`"
